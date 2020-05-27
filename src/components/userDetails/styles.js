@@ -1,6 +1,10 @@
 import {StyleSheet} from 'react-native';
 
 export default StyleSheet.create({
+  container: {
+    flex: 1,
+    alignItems: 'center',
+  },
   profileImage: {
     width: 100,
     height: 100,
@@ -11,6 +15,7 @@ export default StyleSheet.create({
     position: 'absolute',
     bottom: 0,
     width: '100%',
+    maxWidth: 500,
     flexDirection: 'row',
     backgroundColor: 'transparent',
     paddingLeft: 32,

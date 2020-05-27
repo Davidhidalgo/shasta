@@ -28,7 +28,7 @@ export default function UserDetails({username, isEditable = false}) {
   };
 
   return (
-    <View style={{flex: 1}}>
+    <View style={styles.container}>
       {isTakingPhoto ? (
         <CameraView onTakePhoto={updateUserPhoto} />
       ) : (
